@@ -9,7 +9,6 @@ export class WeatherForecastComponent implements OnInit {
 
   @Input() weatherForecasts: any[];
 
-  @Input() searchText: string;
 
   constructor() {
     console.log('WEATHER FORECAST COMPONENT ...... ')

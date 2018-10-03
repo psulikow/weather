@@ -9,14 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'CSC 436 Weather App';
 
-  constructor(private http: HttpClient) {
-    this.cityDetails = {
-      cityName: '',
-      stateCode: '',
-    };
-    this.weatherForecasts = [];
-
-  }
+  constructor(){}
 
 }
 
