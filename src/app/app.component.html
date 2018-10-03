@@ -1,11 +1,23 @@
-<div>
-  <h3>
-    {{cityDetails.cityName}}
-    {{cityDetails.stateCode}}
-  </h3>
-  <input [(ngModel)] = 'searchText'/>
-  <button (click)="getWeather()">Get Weather</button>
+
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <br>
+  Built by Paul Sulikowski for CSC 436
+  <br>
 </div>
+
+
+
+<!--<div>-->
+  <!--<h3>-->
+    <!--{{cityDetails.cityName}}-->
+    <!--{{cityDetails.stateCode}}-->
+  <!--</h3>-->
+  <!--<input [(ngModel)] = 'searchText'/>-->
+  <!--<button (click)="getWeather()">Get Weather</button>-->
+<!--</div>-->
 
 <app-weather-forecast [weatherForecasts]="weatherForecasts"></app-weather-forecast>
 

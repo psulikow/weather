@@ -8,6 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class WeatherForecastComponent implements OnInit {
 
   @Input() weatherForecasts: any[];
+
+  @Input() searchText: string;
+
   constructor() {
     console.log('WEATHER FORECAST COMPONENT ...... ')
   }
