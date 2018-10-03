@@ -1,15 +1,3 @@
-
-<!--<div>-->
-  <!--<div *ngFor = "let forecast of weatherForecasts">-->
-    <!--<div>-->
-      <!--Date: {{forecast.datetime}}-->
-      <!--<span>Max Temp:</span>-->
-      <!--{{forecast.max_temp}}-->
-    <!--</div>-->
-  <!--</div>-->
-<!--</div>-->
-
-
 <input [(ngModel)] = 'searchText'/>
 
 <app-weather-forecast-list [searchText]="searchText" ></app-weather-forecast-list>

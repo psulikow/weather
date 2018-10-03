@@ -9,11 +9,9 @@ export class WeatherForecastComponent implements OnInit {
 
   @Input() weatherForecasts: any[];
 
-
   constructor() {
     console.log('WEATHER FORECAST COMPONENT ...... ')
   }
-
   ngOnInit() {
   }
 
